@@ -16,3 +16,4 @@ class TodoSummarySerializer(serializers.ModelSerializer):
 		fields = (
 			"id", "title",
 		)
+  
