@@ -50,3 +50,5 @@ env/
 # Windows specific files
 Thumbs.db
 ehthumbs.db
+
+settings.py/
