@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.mo
+
+# If your project uses SQLite database (ignore the database file)
+db.sqlite3
+
+# Ignore local Django settings
+/local_settings.py
+
+# Environment variables
+.env
+
+# Django migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Media files (you might want to ignore media files)
+media/
+
+# Static files (can be built locally or on deploy)
+staticfiles/
+static/
+
+# Local virtual environments
+venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
